@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+  margin: 0;
+}
+
+#navbar {
+  background-color: white;
+  width: 100vw;
+  height: 8vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.hamburger {
+  position: relative;
+  right: 8vw;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar i {
+  color: #28352F;
+  font-size: 18px;
+  transition: all 0.1s;
+}
+
+#navbar i:hover{
+  color: rgb(57, 85, 178);
+  font-size: 28px;
+  transition: all 0.1s;
+}
