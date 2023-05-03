@@ -76,7 +76,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .title {
@@ -163,7 +162,7 @@ body {
   width: 16.17px;
   height: 21.62px;
   margin: 9.51px;
-  margin-top: 10.51px;;
+  margin-top: 10.51px;
 }
 
 /* drop-down button */
