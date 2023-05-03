@@ -75,18 +75,22 @@ body {
   height: 211px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
   text-align: center;
 }
 
-.title .self {
+.title h1 span:not(:last-child) {
+  display: block;
   color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
-.title .profession {
+.title h1:last-child {
   color: #36b37e;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 .info {
@@ -104,9 +108,13 @@ body {
 
 /* social media icon */
 
-.social {
+.social ul {
   display: flex;
   justify-content: center;
+}
+
+.social ul li {
+  list-style-type: none;
 }
 
 .twitter {
@@ -125,6 +133,7 @@ body {
   width: 20px;
   height: 15.69px;
   margin: 9.51px;
+  margin-top: 13.51px;
 }
 
 .github {
