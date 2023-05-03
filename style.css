@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: white;
   margin: 0;
 }
+/* hero section */
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*header design*/
 
 #navbar {
   background-color: white;
   width: 100vw;
-  height: 8vh;
+  height: 7.2vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -40,4 +52,106 @@ body {
   color: rgb(57, 85, 178);
   font-size: 28px;
   transition: all 0.1s;
+}
+
+/*banner design*/
+
+.banner {
+  width: 100vw;
+  height: 653.32px;
+  margin-top: 7.2vh;
+  background-image: url("./image/header-illsutration-mobile@2x.png");
+  background-position: center top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 327px;
+  height: 211px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.title .self {
+  color:#172B4D;
+}
+
+.title .profession {
+  color: #36B37E
+}
+
+.info {
+  width: 327px;
+  height: 164px;
+  color: #172B4D;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 15px;
+}
+/* social media icon */
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.twitter {
+  width: 19.58px;
+  height: 19.58px;
+  margin: 9.51px;
+}
+.linkedin {
+  width: 20px;
+  height: 19.62px;
+  margin: 9.51px;
+}
+.medium {
+  width: 20px;
+  height: 15.69px;
+  margin: 9.51px;
+}
+.github {
+  width: 17.99px;
+  height: 19.62px;
+  margin: 9.51px;
+}
+.angellist {
+  width: 14.17px;
+  height: 19.62px;
+  margin: 9.51px;
+}
+
+/* drop-down button */
+
+.drop-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: -20px;
+}
+
+.chevron {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
