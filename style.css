@@ -311,3 +311,8 @@ border-radius: 24px;
   border-radius: 4px;
   margin: 13px 92px 8px;
 }
+
+.card-info .btnbar a:active {
+  background-color: #008552;
+}
+
