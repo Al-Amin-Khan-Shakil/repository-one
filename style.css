@@ -336,6 +336,9 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url("./image/Mask\ Group.png"), url("./image/Group.png");
+  background-repeat: no-repeat, no-repeat; 
+  background-position: 100% 0.4%, 0% 24%;
 }
 
 .aboutbox {
@@ -395,18 +398,6 @@ body {
   background-color: #008552;
 }
 
-.top-img {
-  position: absolute;
-  right: 0;
-  top: 5px;
-}
-
-.bottom-img {
-  position: absolute;
-  left: 0;
-  top: 340px;
-}
-
 .aboutwrapper .skill-card {
   width: 327px;
   height: 316px;
@@ -448,7 +439,8 @@ body {
   align-items: center;
 }
 
-.tagbox h4 {
+.tagbox li {
+  list-style-type: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
